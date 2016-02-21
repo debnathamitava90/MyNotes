@@ -1,0 +1,44 @@
+class Parent{
+
+static{
+sop(1);
+}
+
+{
+sop(2);
+}
+
+Parent()
+{
+sop(3);
+}
+
+}
+
+
+class Child extends Parent{
+
+static{
+sop(4);
+}
+
+{
+sop(5);
+}
+
+Child ()
+{
+sop(6);
+}
+
+}
+
+}
+
+o/p will be when Child class instance created -->
+1
+4
+2
+3
+5
+6

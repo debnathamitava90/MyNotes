@@ -1,0 +1,9 @@
+1)Final variables once defined you cannot change. final variable can be initialized
+while declaring/in instance initilization block/in constructor.
+if it is static final then while declaring/in IIb/static constructor we can initialize it.
+
+2)final method can not be overridden in child class.non final class can contain final method.final method calls can be resolved in compiletime i.e early binding
+can be there for final methods.
+
+
+3)Final class cannot be instantiated.final class cannot be abstract.
